@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/game.css" rel="stylesheet" type="text/css">
+
+    <title>Zookeeper</title>
+
+    <script src="assets/js/index.js"></script>
+</head>
+
+<body class="body__game">
+    <main class="container">
+        <div class="content">
+
+            <div class="c-row">
+                <div class="c-big c-container">
+                    <div class="meta-info">
+                        <p>Сложный уровень</p>
+                        <p id="levelLabel">Задание:</p>
+                        <p id="scoreLabel">Очки:</p>
+                        <p id="gameOverLabel">Конец игры</p>
+                        <div class="row" id="gameOverButtons">
+                            <button id="reload" class="btngame btn-primary" type="button"><img class="repeat_icon"
+                                    src="assets/images/repeatlogo.png" href="game.html" /></button>
+                            <button id="menu" class="btngame btn-primary" type="button"><img class="menu_icon"
+                                    src="assets/images/menulogo.png" href="menu.html" /></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="c-container">
+                    <div class="c-card">
+                        <canvas id="etalon"></canvas>
+                    </div>
+                </div>
+
+                <div class="c-big c-container">
+                    <div class="meta-info">
+                        <div class="timer">
+                            <div id="timer" class="timer-line"></div>
+                        </div>
+                        <img class="time_icon" id="hourglass" src="assets/images/hourglass.png" />
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="c-row">
+                <div class="c-container">
+                    <div class="c-card variant">
+                        <canvas id="variant"></canvas>
+                    </div>
+                </div>
+                <div class="c-container">
+                    <div class="c-card variant">
+                        <canvas id="variant"></canvas>
+                    </div>
+                </div>
+                <div class="c-container">
+                    <div class="c-card variant">
+                        <canvas id="variant"></canvas>
+                    </div>
+                </div>
+                <div class="c-container">
+                    <div class="c-card variant">
+                        <canvas id="variant"></canvas>
+                    </div>
+                </div>
+                <div class="c-container">
+                    <div class="c-card variant">
+                        <canvas id="variant"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="c-row">
+
+                <div class="c-container">
+                    <div class="c-card variant">
+                        <canvas id="variant"></canvas>
+                    </div>
+                </div>
+                <div class="c-container">
+                    <div class="c-card variant">
+                        <canvas id="variant"></canvas>
+                    </div>
+                </div>
+                <div class="c-container">
+                    <div class="c-card variant">
+                        <canvas id="variant"></canvas>
+                    </div>
+                </div>
+                <div class="c-container">
+                    <div class="c-card variant">
+                        <canvas id="variant"></canvas>
+                    </div>
+                </div>
+                <div class="c-container">
+                    <div class="c-card variant">
+                        <canvas id="variant"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="c-row">
+
+                <div class="c-container">
+                    <div class="c-card variant">
+                        <canvas id="variant"></canvas>
+                    </div>
+                </div>
+                <div class="c-container">
+                    <div class="c-card variant">
+                        <canvas id="variant"></canvas>
+                    </div>
+                </div>
+                <div class="c-container">
+                    <div class="c-card variant">
+                        <canvas id="variant"></canvas>
+                    </div>
+                </div>
+                <div class="c-container">
+                    <div class="c-card variant">
+                        <canvas id="variant"></canvas>
+                    </div>
+                </div>
+                <div class="c-container">
+                    <div class="c-card variant">
+                        <canvas id="variant"></canvas>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="toggle-container">
+            <button class="theme-btn light" onclick="setTheme('light')" title="light mode">
+                <img src="assets/images/theme_light.png" alt="light">
+            </button>
+            <button class="theme-btn dark" onclick="setTheme('dark')" title="dark mode">
+                <img src="assets/images/theme_dark.png" alt="dark">
+            </button>
+        </div>
+    </main>
+
+    <script src="assets/js/game_state_3.js"></script>
+    <script src="assets/js/game_.js"></script>
+    <script src="assets/js/game_3.js"></script>
+    <script src="assets/js/images.js"></script>
+    <script src="assets/js/user.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

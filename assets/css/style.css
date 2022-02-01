@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    background-color: var(--bg-color);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2.5rem 0;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.content {
+    height: 100vh;
+}
+
+:root.dark .body__index {
+    background-color: #0ba496;
+}
+
+:root,
+:root.light .body__login {
+    background-color: #f4837d;
+}
+
+:root.dark .body__login {
+    background-color: #0b7c82;
+}
+
+:root.dark nav li:nth-of-type(1) {
+    background-color: #15b6a0;
+}
+
+:root.dark nav li:nth-of-type(2) {
+    background-color: #0b7c82;
+}
+
+:root.dark nav li:nth-of-type(3) {
+    background-color: #d6c9c4;
+}
+
+:root.dark .difficulty {
+    background-color: #0ba496;
+}
+
+:root.dark .body__game {
+    background-color: #0ba496;
+}
+
+:root.dark .leaderboard {
+    background-color: #0ba496;
+}
+
+:root.dark .backward-btn {
+    background-color: #29363b;
+}
+
+:root.dark .leaderboard__profile {
+    background-color: #0b7c82;
+}
+
+:root.dark .leaderboard__position {
+    box-shadow: 0 0 0 10px #29363b;
+    color: #ffffff;
+}
+
+:root.dark .leaderboard__name {
+    color: #ffffff;
+}
+
+:root.dark .leaderboard__score {
+    color: #ffffff;
+}
+
+.toggle-container {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    z-index: 1001;
+}
+
+.theme-btn {
+    width: 6em;
+    height: 6em;
+    padding: 0.5em;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.theme-btn img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.theme-btn.light {
+    display: none;
+}
+
+.dark .theme-btn.dark {
+    display: none;
+}
+
+.dark .theme-btn.light {
+    display: block;
+}
+
+.menu_window {
+    margin: auto;
+    background-color: white;
+    width: 450px;
+    height: 450px;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.btn {
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #c4c4c4;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #797979;
+}
+
+.zookeeper_logo {
+    width: 100px;
+    height: 100px;
+    padding: 0;
+}

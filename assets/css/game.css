@@ -1,0 +1,125 @@
+.content {
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+.c-container {
+    height: 22vh;
+    width: 22vh;
+    flex-grow: 1;
+    padding: 1vh;
+}
+
+.c-big {
+    flex-grow: 2;
+    width: 60vh;
+}
+
+.c-row {
+    display: flex;
+}
+
+.meta-info {
+    position: relative;
+    border-radius: 8px;
+    height: 100%;
+    background-color: white;
+    padding: 25px;
+}
+
+.meta-info p {
+    padding-left: 10px;
+}
+
+#gameOverButtons {
+    padding-left: 20px;
+}
+
+.c-card {
+    overflow: hidden;
+    width: 20vh;
+    height: 20vh;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.hovered {
+    box-shadow: 0 0 0 1vh #c4c4c4;
+}
+
+.correct {
+    box-shadow: 0 0 0 1vh #b2ea70;
+}
+
+.error {
+    box-shadow: 0 0 0 1vh #c85c5c;
+}
+
+p {
+    font-size: 2.5vh;
+    margin-bottom: 1vh;
+}
+
+.btngame {
+    margin: 5px;
+    border-radius: 50%;
+    background-color: #c4c4c4;
+    border: none;
+    width: 8vh;
+    height: 8vh;
+}
+
+.btngame:hover {
+    background-color: #797979;
+}
+
+.btngame img {
+    width: 7.5vh;
+    height: 5.5vh;
+    padding-right: 20px;
+}
+
+#gameOverLabel,
+#gameOverButtons {
+    display: none;
+    position: absolute;
+    top: 46%;
+    left: 52%;
+}
+
+#gameOverLabel{
+    top: 20%;
+    left: 56%;
+}
+
+.timer {
+    background-color: #000000;
+    width: 20vh;
+    height: 20vh;
+    overflow: hidden;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 0;
+    left: 30%;
+}
+
+.timer-line {
+    background-color: #dfdfdf;
+    width: 20vh;
+    height: 20vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#hourglass {
+    width: 20vh;
+    height: 20vh;
+    position: absolute;
+    top: 0;
+    left: 30%;
+}
+
+
